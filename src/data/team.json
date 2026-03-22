@@ -1,0 +1,42 @@
+{
+  "leadership": [
+    {
+      "id": "1",
+      "name": "Dr. JYOTI KANJALKAR",
+      "position": "Faculty Advisor",
+      "category": "faculty",
+      "description": "Professor Computer Science & Engineering (Artificial Intelligence and Machine Learning)",
+      "photo": "/team/faculty.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "2",
+      "name": "Aman Shaikh",
+      "position": "Chairperson",
+      "category": "core",
+      "description": "Third Year CSE (AIML)",
+      "photo": "/team/chair.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "3",
+      "name": "Tanvi Naik",
+      "position": "Vice-Chairperson",
+      "category": "core",
+      "description": "Second Year CSE (AIML)",
+      "photo": "/team/vice-chair.jpg",
+      "linkedin": "https://linkedin.com"
+    }
+  ],
+  "team": [
+    {
+      "id": "4",
+      "name": "Rajvardhan Desai",
+      "position": "Technical Lead",
+      "category": "technical",
+      "description": "Third Year CSE (AIML)",
+      "photo": "/team/tech-lead.jpg",
+      "linkedin": "https://linkedin.com"
+    }
+  ]
+}

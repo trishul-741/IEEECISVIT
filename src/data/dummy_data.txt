@@ -1,0 +1,64 @@
+,
+    {
+      "id": "5",
+      "name": "Sneha Iyer",
+      "position": "Event Coordinator",
+      "category": "core",
+      "description": "Expert in event management and logistics. Ensures every event runs smoothly from planning to execution.",
+      "photo": "/team/event-coord.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "6",
+      "name": "Karthik Nair",
+      "position": "Design Lead",
+      "category": "design",
+      "description": "Creative designer responsible for all visual assets, social media content, and branding materials.",
+      "photo": "/team/design-lead.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "7",
+      "name": "Meera Krishnan",
+      "position": "Backend Developer",
+      "category": "technical",
+      "description": "Expert in Node.js and Python. Maintains the club's digital infrastructure and builds internal tools.",
+      "photo": "/team/backend-dev.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "8",
+      "name": "Aditya Joshi",
+      "position": "Frontend Developer",
+      "category": "technical",
+      "description": "React and Next.js specialist. Builds responsive, performant web applications for the club.",
+      "photo": "/team/frontend-dev.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "9",
+      "name": "Divya Patel",
+      "position": "UI/UX Designer",
+      "category": "design",
+      "description": "Creates user-centered designs and prototypes. Ensures consistent visual identity across all platforms.",
+      "photo": "/team/uiux-designer.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "10",
+      "name": "Prof. Rajesh Kumar",
+      "position": "Faculty Coordinator",
+      "category": "technical",
+      "description": "Head of Department with expertise in Artificial Intelligence. Guides the club's research-oriented initiatives.",
+      "photo": "/team/faculty2.jpg",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": "11",
+      "name": "Ishaan Gupta",
+      "position": "Secretary",
+      "category": "core",
+      "description": "Manages club documentation and communications. Coordinates between different teams and ensures smooth operations.",
+      "photo": "/team/secretary.jpg",
+      "linkedin": "https://linkedin.com"
+    }

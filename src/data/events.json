@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "Hackathon",
+    "date": "2026-03-29",
+    "time": "TBD",
+    "venue": "TBD",
+    "description": "A 12-hour hackathon challenging participants to build innovative solutions to real-world problems. Open to all branches and years.",
+    "coverImage": "/events/hackathon.jpg",
+    "gallery": [
+      "/events/hackathon.jpg",
+      "/events/workshop.jpg",
+      "/events/seminar.jpg"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Kaggle Grandmaster Webinar",
+    "date": "2025-10-15",
+    "time": "06:00 PM – 08:00 PM",
+    "venue": "Zoom Meeting (Online)",
+    "description": "Introduction to real world application on LLMs across industries.",
+    "coverImage": "/events/coderush.jpg",
+    "gallery": [
+      "/events/coderush.jpg",
+      "/events/hackathon.jpg",
+      "/events/workshop.jpg"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "GPU Webinar",
+    "date": "2025-10-16",
+    "time": "06:00 PM – 08:00 PM",
+    "venue": "Zoom Meeting (Online)",
+    "description": "Introduction to GPU optimization techniques and parallel computing concepts. Enhanced awareness of career opportunities in GPU computing and cybersecurity.",
+    "coverImage": "/events/webdev.jpg",
+    "gallery": [
+      "/events/webdev.jpg",
+      "/events/hackathon.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "IEEE CIS Inaugration",
+    "date": "2025-11-05",
+    "time": "10:00 AM – 01:00 PM",
+    "venue": "4006, Building 4, Bibwewadi Campus, VIT Pune",
+    "description": "Offical establishment of IEEE CIS Student Chapter at VIT Pune",
+    "coverImage": "/events/seminar.jpg",
+    "gallery": [
+      "/events/seminar.jpg"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "MCP Webinar",
+    "date": "2025-10-17",
+    "time": "06:00 PM – 08:00 PM",
+    "venue": "Zoom Meeting (Online)",
+    "description": "Detailed explanation of context-aware AI system architecture",
+    "coverImage": "/events/cybersec.jpg",
+    "gallery": [
+      "/events/cybersec.jpg",
+      "/events/seminar.jpg",
+      "/events/workshop.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Innovative Mindset Session",
+    "date": "2026-02-17",
+    "time": "12:00 PM – 1:00 PM",
+    "venue": "New Seminar Hall",
+    "description": "..",
+    "coverImage": "/events/cybersec.jpg",
+    "gallery": [
+      "/events/cybersec.jpg",
+      "/events/seminar.jpg",
+      "/events/workshop.jpg"
+    ]
+  }
+]
