@@ -103,6 +103,8 @@ export default function EventsContent() {
                   coverImage={event.coverImage}
                   isPast={event.isPast}
                   index={i}
+                  registerLink={(event as Record<string, unknown>).registerLink as string | undefined}
+                  prizePool={(event as Record<string, unknown>).prizePool as string | undefined}
                   onGalleryClick={() => setGalleryEvent(event)}
                 />
               ))}

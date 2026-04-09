@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, MapPin } from "lucide-react";
 
@@ -14,6 +15,8 @@ interface EventCardProps {
   coverImage: string;
   isPast?: boolean;
   index?: number;
+  registerLink?: string;
+  prizePool?: string;
   onGalleryClick?: () => void;
 }
 
@@ -23,8 +26,11 @@ export default function EventCard({
   time,
   venue,
   description,
+  coverImage,
   isPast = false,
   index = 0,
+  registerLink,
+  prizePool,
   onGalleryClick,
 }: EventCardProps) {
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
@@ -42,7 +48,7 @@ export default function EventCard({
       whileHover={{ y: -8 }}
       className="group relative overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-500 hover:shadow-xl hover:shadow-accent/5"
     >
-      {/* Cover image placeholder with zoom effect */}
+      {/* Cover image with zoom effect */}
       <div className="relative h-52 overflow-hidden">
         <div
           className="absolute inset-0 transition-transform duration-700 group-hover:scale-110"
@@ -52,6 +58,15 @@ export default function EventCard({
               hsl(${240 + index * 20}, 60%, 12%) 100%)`,
           }}
         />
+        {coverImage && (
+          <Image
+            src={coverImage}
+            alt={title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
         <div
           className={`absolute top-4 right-4 rounded-full px-3.5 py-1.5 text-xs font-semibold backdrop-blur-md ${
@@ -85,9 +100,16 @@ export default function EventCard({
           </div>
         </div>
 
-        <p className="text-sm text-text-muted leading-relaxed mb-6 line-clamp-2">
+        <p className="text-sm text-text-muted leading-relaxed mb-4 line-clamp-2">
           {description}
         </p>
+
+        {prizePool && !isPast && (
+          <div className="flex items-center gap-2 mb-4 px-3 py-2 rounded-lg bg-amber-50 border border-amber-200">
+            <span className="text-amber-600 text-base">🏆</span>
+            <span className="text-xs font-semibold text-amber-700">{prizePool}</span>
+          </div>
+        )}
 
         {isPast ? (
           <button
@@ -96,6 +118,15 @@ export default function EventCard({
           >
             View Gallery
           </button>
+        ) : registerLink ? (
+          <a
+            href={registerLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full rounded-xl bg-accent py-3 text-center text-sm font-semibold text-white shadow-lg shadow-accent/15 transition-all duration-300 hover:bg-accent-hover hover:shadow-accent/25 hover:scale-[1.02]"
+          >
+            Register Now ↗
+          </a>
         ) : (
           <Link
             href="/register"
